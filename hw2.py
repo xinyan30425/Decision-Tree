@@ -63,12 +63,7 @@ graph=graphviz.Source(dot_data)
 graph.render("label train entropy")
 #graph.render("label train gini")
 
-
-
 graph
 
 
 
-
-data=pd.read_csv("TEST new.csv")
-data.head()
